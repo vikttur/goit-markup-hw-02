@@ -1,0 +1,105 @@
+body {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.94;
+	letter-spacing: 0.03em;
+}
+
+body .section-head {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.28;
+	text-align: center;
+}
+
+body .link {
+	text-decoration: none;
+}
+
+/* header */
+.logo {
+	font-family: "Raleway", sans-serif;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+}
+
+.nav-text {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+}
+
+/* hero */
+.hero-head {
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+}
+
+.hero-button {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+}
+
+/* section idea */
+.idea-head {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	text-transform: uppercase;
+}
+
+.idea-text {
+	font-size: 14px;
+	line-height: 1.71;
+}
+
+/* section work */
+
+/* section team */
+.team-head {
+	font-weight: 500;
+	line-height: 1.19;
+}
+
+.team-text {
+	. line-height: 1.19;
+}
+
+/* footer */
+.footer-text {
+	font-size: 14px;
+	line-height: 1.71;
+}
+
+/* portfolio */
+.projects-button {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.63;
+	text-align: center;
+	letter-spacing: 0.03em;
+}
+
+.projects-head {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2.0;
+	letter-spacing: 0.06em;
+}
+
+.projects-text {
+	line-height: 1.88;
+}
