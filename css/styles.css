@@ -13,7 +13,7 @@
 }
 
 body {
-	background-color: var(--color-bgr-main);
+	background-color: var(--color-bgr-head);
 
 	font-family: "Roboto", sans-serif;
 	font-size: 14px;
@@ -52,22 +52,14 @@ body .list {
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
-	color: var(--color-logo);
-}
-
-.logo-color {
 	color: var(--color-accent);
 }
 
-.logo-invers {
-	color: var(--color-bgr-head);
+.logo-header {
+	color: var(--color-logo);
 }
 
 /* header */
-.header {
-	background-color: var(--color-bgr-head);
-}
-
 .nav-text,
 .contact-text {
 	font-weight: 500;
@@ -77,6 +69,10 @@ body .list {
 
 .nav-text {
 	color: var(--color-header);
+}
+
+.contact-text {
+	color: var(--color-main);
 }
 
 .current {
@@ -172,6 +168,10 @@ body .list {
 /* footer */
 .footer {
 	background-color: var(--color-bgr-hero);
+}
+
+.logo-footer {
+	color: var(--color-bgr-head);
 }
 
 .footer-text {
