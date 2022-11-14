@@ -8,14 +8,16 @@
 	--color-main: #757575;
 	--color-logo: #000000;
 	--color-header: #212121;
+	--color-border: #EEEEEE;
 	--color-footer-contact: rgba(255, 255, 255, 0.6);
 }
 
 body {
+	background-color: var(--color-bgr-main);
+
 	font-family: "Roboto", sans-serif;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 1.94;
+	font-size: 14px;
+	line-height: 1.71;
 	letter-spacing: 0.03em;
 	color: var(--color-main);
 }
@@ -66,24 +68,19 @@ body .list {
 	background-color: var(--color-bgr-head);
 }
 
-.nav-text {
+.nav-text,
+.contact-text {
 	font-weight: 500;
-	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
+}
+
+.nav-text {
 	color: var(--color-header);
 }
 
 .current {
 	color: var(--color-accent);
-}
-
-.contact-text {
-	font-weight: 500;
-	font-size: 14px;
-	line-height: 1.14;
-	letter-spacing: 0.02em;
-	color: var(--color-main);
 }
 
 /* hero */
@@ -103,33 +100,27 @@ body .list {
 
 .hero-button {
 	background-color: var(--color-accent);
-	border-radius: 4px;
 
 	font-family: inherit;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.88;
-	display: flex;
-	align-items: center;
-	text-align: center;
 	letter-spacing: 0.06em;
 
 	color: var(--color-bgr-head);
 	cursor: pointer;
+	border-radius: 4px;
 }
 
 .hero-button:hover,
 .hero-button:focus {
 	background-color: var(--color-btn-active);
+
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 /* section idea */
-.idea {
-	background-color: var(--color-bgr-main);
-}
-
 .head-hidden {
-	/* visibility: hidden; */
 	white-space: nowrap;
 	width: 1px;
 	height: 1px;
@@ -143,38 +134,38 @@ body .list {
 
 .idea-head {
 	font-weight: 700;
-	font-size: 14px;
 	line-height: 1.14;
 	text-transform: uppercase;
 	color: var(--color-header);
 }
 
-.idea-text {
-	font-size: 14px;
-	line-height: 1.71;
-}
-
 /* section work */
-.work {
-	background-color: var(--color-bgr-main);
-}
 
 /* section team */
 .team {
 	background-color: var(--color-bgr-alternative);
 }
 
-.card {
+.card-employes,
+.card-progects {
 	background-color: var(--color-bgr-head);
+}
+
+.card-employes {
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 0px 0px 4px 4px;
 }
 
 .team-head {
 	font-weight: 500;
+	font-size: 16px;
 	line-height: 1.19;
 	color: var(--color-header);
 }
 
+.team-head,
 .team-text {
+	font-size: 16px;
 	line-height: 1.19;
 }
 
@@ -184,22 +175,14 @@ body .list {
 }
 
 .footer-text {
-	font-size: 14px;
-	line-height: 1.71;
 	color: var(--color-bgr-head);
 }
 
 .footer-contact {
-	font-size: 14px;
-	line-height: 1.71;
 	color: var(--color-footer-contact);
 }
 
 /* portfolio */
-.projects {
-	background-color: var(--color-bgr-main);
-}
-
 .projects-button {
 	background-color: var(--color-bgr-alternative);
 	border-radius: 4px;
@@ -208,7 +191,6 @@ body .list {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.63;
-	text-align: center;
 	letter-spacing: 0.03em;
 
 	color: var(--color-header);
@@ -219,8 +201,23 @@ body .list {
 .projects-button:focus {
 	background-color: var(--color-accent);
 	color: var(--color-bgr-head);
+
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.card-progects {
+	border: 1px solid var(--color-border);
+}
+
+.projects-head {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2.0;
+	letter-spacing: 0.06em;
+	color: var(--color-header);
 }
 
 .projects-text {
+	font-size: 16px;
 	line-height: 1.88;
 }
